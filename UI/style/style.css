@@ -1,0 +1,511 @@
+* {
+    font-family: system-ui;
+    \
+}
+
+.login-form {
+    background-color: ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    border: 1px solid #ccc;
+    padding: 50px;
+}
+
+.form-input {
+    height: 35px;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding-bottom: 20px !important;
+}
+
+header {
+    background-color: #f55b14;
+    height: 74px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.container-nav ul {
+    list-style-type: none;
+}
+
+
+/*Create a horizontal list with spacing*/
+
+.navbar {
+    float: right;
+}
+
+.container-nav li {
+    display: inline-block;
+    margin-right: 1px;
+    padding: 10px;
+}
+
+.grid h1 {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.grid h1 span {
+    color: #f55b14;
+}
+
+.container-nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.brand {
+    float: left;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: unset !important;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 10px !important;
+}
+
+.container-back {
+    background-image: linear-gradient(rgba(23, 35, 59, 0.92), rgba(23, 35, 59, 0.42)), url(../img/n.jpg);
+    padding: 150px;
+    margin-top: 80px;
+}
+
+.mybtn {
+    text-decoration: none;
+    padding: 15px;
+    background-color: #f55b14;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 15rem;
+}
+
+.mybtn:hover {
+    background-color: #fff;
+    color: #f55b14;
+}
+
+.booking {
+    padding: 30px;
+    background-color: #FFE4C4;
+}
+
+.booking .cont {
+    float: right;
+    margin-top: -10px !important;
+}
+
+.booking .text {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+}
+
+.column-grid {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#grid {
+    margin: auto;
+    text-align: center;
+    margin-top: 150px !important;
+}
+
+.column-grid div {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+.img-caption {
+    text-align: left !important;
+}
+
+.two {
+    margin-top: 20px !important;
+}
+
+.img-caption button {
+    display: unset !important;
+    padding: 10px;
+    width: 120px;
+    background-color: #f55b14;
+    border-radius: 15rem;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+/*model css butto close and styles*/
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal2 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal3 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal4 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    width: 50rem;
+    border-radius: 0.5rem;
+}
+
+.model-img {
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.model-img img {
+    width: 90%;
+}
+
+.mod-p {
+    text-align: center;
+}
+
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+
+.close-button1 {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+
+.close-button2 {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+
+.close-button3 {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+
+.close-button4 {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+
+.close-button:hover {
+    background-color: darkgray;
+}
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+
+/* end of model css butto close and styles*/
+
+.container-ab {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.about-text {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+/*footer css*/
+
+#footer {
+    background-color: #020e28;
+    height: 50px;
+    width: 100%;
+    position: fixed !important;
+    /* bottom: -14%; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+/* end footer css*/
+
+.container-ab h1 {
+    font-size: 35px;
+    color: #f55b14;
+    text-transform: uppercase;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 0px none;
+    text-align: center;
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, red, transparent);
+}
+
+#specific {
+    margin-top: 100px;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    padding top: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 15px;
+    margin-top: 40px;
+    padding-top: 30px;
+    background-color: #deded2;
+}
+
+
+/*card div css */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 100px;
+}
+
+.container {
+    padding: 80px 16px;
+}
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    margin-top: 10px !important;
+    margin: auto;
+    font-size: 16px;
+    width: 600px;
+}
+
+.custom-select select {
+    display: none;
+    /*hide original SELECT element:*/
+}
+
+.select-selected {
+    background-color: #f55b14;
+}
+
+
+/*style the arrow inside the select element:*/
+
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+
+/*point the arrow upwards when the select box is open (active):*/
+
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+
+/*style the items (options), including the selected item:*/
+
+.select-items div,
+.select-selected {
+    color: #ffffff;
+    padding: 4px 8px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/*style items (options):*/
+
+.select-items {
+    background-color: #020e28;
+}
+
+
+/*hide the items when the select box is closed:*/
+
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.type {
+    position: absolute;
+    margin-top: 100px;
+}
+
+.title {
+    margin-top: 100px;
+}
+
+.title h1 {
+    text-align: center;
+}
+
+#art {
+    background-color: #fff;
+    padding: 260px;
+    padding-left: auto;
+    margin-right: 0px;
+}
+
+.img-caption {
+    margin: auto !important;
+    text-align: center !important;
+}
+
+#st {
+    margin: auto;
+    text-align: center;
+}
+
+#wid {
+    width: 50%
+}
+
+.login-f {
+    margin-top: 110px !important;
+}
+
+
+/*card div css */
+
+.login-f {
+    margin-top: 60px;
+}
