@@ -1,0 +1,22 @@
+.footer {
+    background-color: #020e28;
+    height: 50px;
+    width: 100%;
+}
+
+.footer p {
+    color: #fff;
+    text-align: center;
+}
+
+.container-ab h1 {
+    font-size: 35px;
+    color: #f55b14;
+    text-transform: uppercase;
+}
+
+.container_adm {
+    padding: 16px;
+    background-color: #F7F7F7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
