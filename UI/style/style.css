@@ -1,9 +1,10 @@
 * {
     font-family: system-ui;
+    \
 }
 
 .login-form {
-    /*background-color: ;*/
+    background-color: ;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -367,7 +368,7 @@ hr {
     margin: auto;
     text-align: center;
     background-color: #fff;
-    padding-top: 20px;
+    padding top: 20px;
 }
 
 .card {
