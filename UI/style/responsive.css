@@ -1,0 +1,105 @@
+@media only screen and (max-width: 810px) {
+    .brand {
+        display: none !important;
+    }
+    .brand a {
+        /*
+    float: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: unset !important;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 5px !important;
+*/
+        display: none !important;
+    }
+    .navbar li {
+        display: inline-block!important;
+        padding: 5px;
+        border: 1px solid #fff;
+    }
+    #admin {
+        padding: 2px !important;
+        margin-left: 5px;
+    }
+    #art {
+        background-color: #fff;
+        padding: unset !important;
+        padding-left: auto;
+        /* margin-right: 0px; */
+        position: absolute !important;
+        top: 40% !important;
+    }
+    input[type=file],
+    input[type=password] {
+        width: 100% !important;
+    }
+    textarea {
+        width: 100% !important;
+    }
+    .insp-allign {
+        margin-left: unset;
+    }
+    .adminf {
+        margin-left: -20% !important;
+        width: 90%;
+    }
+    .navbar {
+        float: unset;
+        margin-left: -15px;
+    }
+    .container-back {
+        padding: 100px;
+    }
+    .container-back .grid {
+        margin-left: -80px;
+    }
+    .container-back .grid h1 {
+        font-size: 20px;
+    }
+    .btn .mybtn {
+        text-decoration: none;
+        padding: 10px;
+        background-color: #f55b14;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: unset;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 15rem;
+        margin-left: -80px;
+    }
+    body {
+        width: 100%;
+    }
+    .container-ab h1 {
+        font-size: 18px;
+        color: #f55b14;
+        text-transform: uppercase;
+    }
+    #grid {
+        margin-top: 80px !important;
+    }
+    .column-grid div {
+        margin-top: 10px;
+        display: inherit;
+    }
+    .img-caption button {
+        margin-top: unset;
+    }
+    .card {
+        padding-bottom: 20px;
+    }
+    .card p {
+        display: none;
+    }
+    .card img {
+        width: 80% !important;
+        padding: 10px;
+    }
+    form {
+        width: 80% !important;
+    }
+}
