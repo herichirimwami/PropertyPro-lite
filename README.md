@@ -1,2 +1,3 @@
 # PropertyPro-lite
-Property Pro Lite is a platform where people can create and/or search properties for sale or rent.
+PropertyPro-lite is a platform where user should be able so view properties and to see the details. and where user agent can Create Read Update and Delete property advert and can mark property has sold.
+
